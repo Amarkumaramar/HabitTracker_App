@@ -9,7 +9,7 @@ export const habitSlice = createSlice({
     addHabit: (state, action) => {
       const today=new Date();
       let day=today.getDate()-today.getDay();
-      const month= today.getMonth();
+      const month= today.getMonth(); 
       const year =today.getFullYear();
 
       const habit = {
